@@ -1,0 +1,5 @@
+(block kerberos_container
+	(optional kerberos_container_optional
+		(allow process gssd_t (key (read view write)))
+	)
+)
